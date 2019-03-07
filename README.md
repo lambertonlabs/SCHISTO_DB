@@ -1,8 +1,8 @@
 # SCHISTO_DB
-# SCHISTO_DB: Install and build
 A RDBMS for de-identifed SCHISTO_PERSIST data.
 
-All these instructions, at the moment, pertain to macOS.
+# SCHISTO_DB: Install and build
+All these instructions, at the moment, pertain to macOS. apt-get may substitute for Homebrew if you are using a Linux machine (untested).
 
 Homebrew is needed to install PostgreSQL in this instance.
 If you don't have Homebrew (https://brew.sh/), you should.
