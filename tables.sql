@@ -3,7 +3,7 @@ DROP TABLE IF EXISTS miracidia_record;
 
 CREATE TABLE freezer_log (
 Box_name varchar(255),
-repeats int,
+repeats varchar(255),
 Initial_archiver varchar(255),
 description varchar(255),
 collection_date varchar(255),
