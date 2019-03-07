@@ -20,13 +20,9 @@ Build the tables:
 
 ```builddb.sh```
 
-You should recieve output to the prompt saying that your tables have been created. If you are rebuilding the DB, you will recieve output saying your existing tables have been dropped.
-
-Import the data:
-
 At the moment, your data tables need to be kept in the same directory as the scripts. I am working on a way to scrape them from the Dropbox.
 
-```import.sh```
+You should recieve output to the prompt saying that your tables have been created. If you are rebuilding the DB, you will recieve output saying your existing tables have been dropped.
 
 #Working with the database
 
