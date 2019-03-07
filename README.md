@@ -18,7 +18,7 @@ Steps subsequently should be repeated every time the DB gets updated.
 
 Build the tables:
 
-```builddb.sh```
+```bash builddb.sh```
 
 At the moment, your data tables need to be kept in the same directory as the scripts. I am working on a way to scrape them from the Dropbox.
 
