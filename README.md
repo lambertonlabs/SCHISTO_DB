@@ -19,7 +19,7 @@ Build the tables:
 
 ```bash builddb.sh```
 
-You should recieve output to the prompt saying that your tables have been created. If you are rebuilding the DB, you will recieve output saying your existing tables have been dropped. At the moment, your data tables need to be kept in the 'data' directory. I am working on a way to scrape them from the Dropbox.
+You should recieve output to the prompt saying that your tables have been created. If you are rebuilding the DB, you will recieve output saying your existing tables have been dropped. At the moment, your data tables need to be kept in .csv format, in the 'data' directory. I am working on a way to scrape them from the Dropbox.
 
 # Working with the database
 
