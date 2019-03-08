@@ -1,5 +1,6 @@
 DROP TABLE IF EXISTS freezer_log;
 DROP TABLE IF EXISTS miracidia_record;
+DROP TABLE IF EXISTS kato_katz;
 
 CREATE TABLE freezer_log (
 Box_name varchar(255),
@@ -63,3 +64,35 @@ end_well  varchar(255),
 number_of_samples  varchar(255),
 notes_wash  varchar(255)
 );
+
+-- CREATE TABLE treatment_reg_bg_mar17 (
+-- order_no int,
+-- CID varchar(255),
+-- initials varchar(255),
+-- gender text,
+-- age int,
+-- class varchar(255),
+-- weight_kg int,
+-- pill_est float(25),
+-- pills_given float(25),
+-- PZQ_Mar_21 varchar(255),
+-- present_Mar_21 int,
+-- PZQ_MDA varchar(255),
+-- side_effects varchar(255)
+-- );
+-- 
+
+CREATE TABLE kato_katz	(
+cid	varchar(255),
+cin	varchar(255),
+date date,
+Sm_A int,
+Sm_B int,
+Hw_A varchar(255),
+As_A int,
+As_B int,
+Other int,
+weeks_tx int,
+other_helminth text
+);
+
