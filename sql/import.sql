@@ -2,7 +2,7 @@ COPY miracidia_record(CF_card_code,AK_IRN,REC,parent_rec,digitise,preservative,s
 FROM '/Users/tristanpwdennis/Projects/Schisto/SCHISTO_DB/data/miracidia.csv' DELIMITER ',' CSV HEADER;
 
 COPY freezer_log(Box_name,repeats,Initial_archiver,description,collection_date,building,Freezer,freezer_shelf,sample_type,target_organism,Contents,Additional_comments)
-FROM '/Users/tristanpwdennis/Projects/Schisto/SCHISTO_DB/data/Freezer_Book.csv' DELIMITER ',' CSV HEADER;
+FROM '/Users/tristanpwdennis/Projects/Schisto/SCHISTO_DB/data/freezer_book.csv' DELIMITER ',' CSV HEADER;
 
 COPY kato_katz(cid,cin,date,Sm_A,Sm_B,Hw_A,As_A,As_B,Other,weeks_tx,other_helminth) 
 FROM '/Users/tristanpwdennis/Projects/Schisto/SCHISTO_DB/data/kk_data.csv' DELIMITER ',' CSV HEADER;
