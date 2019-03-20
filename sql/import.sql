@@ -4,7 +4,7 @@ FROM '/Users/tristanpwdennis/Projects/Schisto/SCHISTO_DB/data/miracidia.csv' DEL
 COPY freezer_log(Box_name,repeats,Initial_archiver,description,collection_date,building,Freezer,freezer_shelf,sample_type,target_organism,Contents,Additional_comments)
 FROM '/Users/tristanpwdennis/Projects/Schisto/SCHISTO_DB/data/freezer_book.csv' DELIMITER ',' CSV HEADER;
 
-COPY kato_katz(cid,cin,date,Sm_A,Sm_B,Hw_A,As_A,As_B,Other,weeks_tx,other_helminth) 
+COPY kato_katz(cid,cin,date,Sm_A,Sm_B,Hw_A,As_A,As_B,Other,Tx,Batch) 
 FROM '/Users/tristanpwdennis/Projects/Schisto/SCHISTO_DB/data/kk_data.csv' DELIMITER ',' CSV HEADER;
 
 COPY pk_master(cid,day,malaria,hb_10_17,treatment_time,dose,side_effects,pk_t0,pk_t1,pk_t2,pk_t3,immuno_t0,immuno_t24,immuno_t_3weeks,immuno_t9_weeks) 

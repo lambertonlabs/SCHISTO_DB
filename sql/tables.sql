@@ -93,9 +93,10 @@ CREATE TABLE kato_katz(
 	As_A int,
 	As_B int,
 	Other int,
-	weeks_tx int,
-	other_helminth text
+	Tx int,
+	Batch int
 );
+
 
 CREATE TABLE pk_master(
 	cid varchar(255),
